@@ -51,11 +51,12 @@ public class StudentConfig {
 // GET basically with it, we get students
 // POST is to save more students in the database
 // DELETE is to delete students from the database
-
+// PUT is used when we want to update some values
 //---- POST Request ----
 // for our post request we want ot send a certain student,
 // and with it, we want to check first that the email doesn't exist
 // and if it exists we need to throw an exception
+
 
 
 
