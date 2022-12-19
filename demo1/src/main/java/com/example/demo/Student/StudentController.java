@@ -29,6 +29,7 @@ public class StudentController {
     public void registerNeStudent(@RequestBody Student student){
         studentService.addNewStudent(student);
 
+
     }
 
     @DeleteMapping(path = "{studentId}")
